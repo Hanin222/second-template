@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/*:root{
+    --main-color:#18a3d7;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-class {
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.logo-wrapper {
+    width: 150px;
+    padding: 10px;
+
+}
+
+.img {
+    max-width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    height: 100%;
+}
+
+.links .item {
+    text-decoration-line: none;
+    color: #09042d;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.links .item:hover {
+    color: #b6ccd9;
+
+}
+
+
+.law-item {
+    background-image: url(asset/law2.jpeg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.law-firm {
+    background-color: #06284bad;
+    width: 600px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 760px;
+
+}
+
+.law-firm-content {
+    /*transform: translateX(20%);*/
+    font-family: sans-serif;
+}
+
+.practice-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.practice-area {
+    background-color: #eaf4f6;
+    width: 600px;
+}
+
+.practice-area-menu1 {
+    width: 375px;
+
+}
+
+.practice-area-menu2 {
+    width: 375px;
+}
+
+.practice-area-list {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.list {
+    color: #05213d;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list-content {
+    color: #194f85;
+    padding: 20px;
+
+}
+
+.practice-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.practice {
+    color: #09042d;
+    font-weight: bold;
+    font-family: sans-serif;
+    transform: translateX(40%);
+}
+
+.area {
+    color: #1e1180;
+    font-family: sans-serif;
+    transform: translateX(40%);
+}
+
+.vision-wrapper {
+    background-color: #01305c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.vision-info {
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.vision-header {
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.customer-wrapper {
+    background-image: url(asset/customer.PNG);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-wrapper {
+    background-color: #eaf4f6;
+    min-height: 500px;
+
+}
+
+.footer-head {
+    transform: translateX(39%);
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+
+.img-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    /* transform: translateX(105%);*/
+    margin-left: 350px;
+}
+
+.foot-img {
+    max-width: 100%;
+}
+
+.footer-info {
+    padding: 5px;
+    border-bottom: 2px solid grey;
+}
+.footer-text{
+    padding-top: 5px;
+    margin-left: 30px;
+}
+.footer-tel{
+    padding: 10px;
+    
+}
